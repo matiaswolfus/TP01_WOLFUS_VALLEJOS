@@ -1,5 +1,55 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    border: solid black 1px;
+
+
+header section img{
+    border-radius: 50%;
+    height: 5%;
+    width: 5%;
+    
+}
+
+header section h1{
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 38%;
+    margin-bottom: 1%;
+    text-decoration: underline;
+}
+
+header section a{
+    color: black;
+    text-decoration: none;
+    
+}
+
+header li{
+    list-style: none;
+    float: left;
+    margin-left: 13.5%;
+    padding: 0.5%;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+header article{
+    background-color: white;
+    border-radius: 10px;
+    padding: 0.5%;
+}
+
+header{
+    background-image: url(imagenes/cataratas.webp);
+    background-size: 100%;
+}
+
+header img, header h1, header article{
+    display: inline-block;
+}
+
+body{
+    background-color: brown;
+}
+
+body h2{
+    clear: both;
 }
