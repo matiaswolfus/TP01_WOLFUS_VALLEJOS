@@ -1,13 +1,17 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 1px solid black;
+}
 
-
-header section img{
+header  img{
     border-radius: 50%;
     height: 5%;
     width: 5%;
     
 }
 
-header section h1{
+header h1{
     text-align: center;
     margin-left: 40%;
     margin-right: 38%;
@@ -15,41 +19,50 @@ header section h1{
     text-decoration: underline;
 }
 
-header section a{
+header a{
     color: black;
     text-decoration: none;
+    background-color: white;
+    border-radius: 10px;
     
 }
 
-header li{
+header li a{
     list-style: none;
     float: left;
     margin-left: 13.5%;
     padding: 0.5%;
     background-color: white;
     border-radius: 10px;
+    
 
 }
 
-header article{
+header{
     background-color: white;
     border-radius: 10px;
     padding: 0.5%;
+    margin: 0%;
 }
 
 header{
     background-image: url(imagenes/cataratas.webp);
     background-size: 100%;
+    width: 100%;
 }
 
-header img, header h1, header article{
+header img, header h1, header{
     display: inline-block;
 }
 
 body{
-    background-color: brown;
+    background-color: rgb(14, 122, 141);
 }
 
 body h2{
     clear: both;
+}
+
+footer{
+
 }
