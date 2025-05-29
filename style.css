@@ -266,5 +266,28 @@ footer ul li a{
     font-weight: bold;
     font-size: 20px;
 }
-/*Tato, si podes resolver que los div del footer queden a la misma altura te amaria, ya no se que mas hacer*/
 
+.HOTELES_PRINCIPIO select, .HOTELES_PRINCIPIO input{
+    height: 10%;
+    margin-top: 1%;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 60%;
+    background: #a3bdc7;
+}
+.HOTELES_PRINCIPIO p
+{
+    text-align: center;
+    font-weight: bold;
+}
+.OFERTAS input 
+{
+    height: 10%;
+    width: 35%;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 60%;
+    background: #a3bdc7;
+}
