@@ -1,6 +1,5 @@
 /*hy*/
 
-
 header img{
     border-radius: 50%;
     height: 10%;
@@ -19,6 +18,7 @@ header h1{
     font-family:'Times New Roman', Times, serif;
 }
 .HOTELES_DESTACADOS 
+
 
 header li a{
     list-style: none;
@@ -47,17 +47,17 @@ header{
 
 }
 
-.INDEX header img, header h1, header a{
+header img, header h1, header a{
 
     display: inline-block;
 
 }
 
-body {
+body{
     background-color: #AEC3B0;
 }
 
-main{
+ main{
     padding-bottom: 4%;
 }
 
@@ -145,7 +145,7 @@ footer{
     
 }
 
-.INDEX .OFERTAS{
+.OFERTAS{
     text-align: center;
     padding-bottom: 0.5%;
     
@@ -177,6 +177,45 @@ footer div{
 footer ul li a{
     text-decoration: none;
     color: black;
+}
+
+.OPCIONES{
+    background-color: #AEC3B0;
+}
+
+.OPCIONES main h2{
+    clear: both;
+    text-align: center;
+    text-decoration: underline;
+    background-color: #598392;
+    width: 13%;
+    margin-left: 43.5%;
+    padding: 0.5%;
+    border-radius: 15px;
+    padding-bottom: 1%;
+
+}
+
+.OPCIONES main div {
+    width: 23%;
+    height: auto;
+    float: left;
+    margin-left: 1.5%;
+    margin-bottom: 1%;
+    border: 3px solid black;
+    border-radius: 40px;
+    background-color: #598392;
+    
+}
+
+.OPCIONES main div p, main div h3{
+    text-align: center;
+}
+
+.OPCIONES main div img{
+    width: 100%;
+    height: 30%;
+    border-radius: 40px;
 }
 
 /*Tato, si podes resolver que los div del footer queden a la misma altura te amaria, ya no se que mas hacer*/
