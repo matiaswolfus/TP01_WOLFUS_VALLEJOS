@@ -4,16 +4,17 @@
 }
 header img{
     border-radius: 50%;
-    height: 10%;
-    width: 10%;
+    height: 8%;
+    width: 8%;
+    padding: 0%;
     
 }
 
+
 header h1{
     text-align: center;
-    margin-left: 40%;
-    margin-right: 38%;
-    margin-bottom: 4%;
+    width: 84%;
+    padding-bottom: 5%;
     text-decoration: underline;
     color: #AEC3B0;;
     font-size: 45px;
@@ -21,38 +22,72 @@ header h1{
 }
 
 
-header li a{
+header nav ul li a{
+    margin-left: 15%;
     list-style: none;
     color: black;
     text-decoration: none;
     float: left;
-    margin-left: 10%;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
     padding: 0.5%;
     background-color: #598392;
     border-radius: 10px;
 }
 
+
 header ul{
     list-style: none;
 }
+
 
 header{
     background-color: #124559;
     background-size: 100%;
     width: 100%;
+    height: 30%;
     border-radius: 10px;
     padding: 0.5%;
     margin: 0%;
     display: inline-block;
 
-}
-
-header img, header h1, header a{
-
-    display: inline-block;
 
 }
+.INDEX article p, .INDEX article img{
+    float: left;
+}
+
+
+.INDEX article{
+    margin-left: 30%;
+}
+
+
+
+
+.INDEX article h1{
+    text-align: center;
+    clear: both;
+}
+
+
+.INDEX article p{
+    width: 25% ;
+    margin: 3%;
+}
+
+.INDEX article img
+{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+}
+
+
+
+header img, header h1{
+    float: left;
+}
+
 
 body{
     background-color: #AEC3B0;
