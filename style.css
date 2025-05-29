@@ -1,5 +1,7 @@
 /*hy*/
-
+*{
+    border: 1px solid red;
+}
 header img{
     border-radius: 50%;
     height: 10%;
@@ -62,7 +64,7 @@ body{
 
 
 
-.INDEX main h2, .HOTELES_DESTACADOS main h2{
+.INDEX h2, .HOTELES_DESTACADOS h2{
     clear: both;
     text-align: center;
     text-decoration: underline;
@@ -73,7 +75,7 @@ body{
     border-radius: 15px;
 }
 
-.INDEX main div, .HOTELES_DESTACADOS main div{
+.INDEX div, .HOTELES_DESTACADOS div{
     width: 23%;
     height: auto;
     float: left;
@@ -85,7 +87,7 @@ body{
 }
 
 
-.PAQUETES main h2{
+.PAQUETES h2{
     clear: both;
     text-align: center;
     text-decoration: underline;
@@ -95,20 +97,21 @@ body{
     border-radius: 15px;
 }
 
-.PAQUETES main 
+.PAQUETES 
 {
     width: 23%;
     height: auto;
 
 }
-.PAQUETES main div img{
+
+.PAQUETES div img{
     width: 100%;
     height: 30%;
     border-radius: 40px;
 }
-.PAQUETES main article
+.PAQUETES article
 {
-    width: 100%;
+    width: 40%;
     height: auto;
     text-align: center;
     padding: 1%;
@@ -116,7 +119,7 @@ body{
     font-size: 20px;
 }
 
-.INDEX main div img, .HOTELES_DESTACADOS main div img{
+.INDEX div img, .HOTELES_DESTACADOS div img{
     width: 100%;
     height: 30%;
     border-radius: 40px;
@@ -182,7 +185,7 @@ footer ul li a{
     background-color: #AEC3B0;
 }
 
-.OPCIONES main h2, .VUELOS_DESTACADOS main h2{
+.OPCIONES h2, .VUELOS_DESTACADOS main h2{
     clear: both;
     text-align: center;
     text-decoration: underline;
@@ -195,7 +198,7 @@ footer ul li a{
 
 }
 
-.OPCIONES main div, .VUELOS_DESTACADOS main div{
+.OPCIONES div, .VUELOS_DESTACADOS div{
     width: 23%;
     height: auto;
     float: left;
@@ -207,16 +210,16 @@ footer ul li a{
     
 }
 
-.OPCIONES main div p, main div h3, .VUELOS_DESTACADOS main div p, main div h3{
+.OPCIONES div p, div h3, .VUELOS_DESTACADOS div p, div h3{
     text-align: center;
 }
 
-.OPCIONES main div img, .VUELOS_DESTACADOS main div img{
+.OPCIONES div img, .VUELOS_DESTACADOS div img{
     width: 100%;
     height: 30%;
     border-radius: 40px;
 }
-.VUELOS_DESTACADOS main h2 a{
+.VUELOS_DESTACADOS h2 a{
     text-decoration: none;
     color: black;
     font-weight: bold;
