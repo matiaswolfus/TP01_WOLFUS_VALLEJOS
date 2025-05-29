@@ -1,13 +1,12 @@
 /*hy*/
-*{
-    border: 1px solid red;
-}
+
+
 header img{
     border-radius: 50%;
     height: 8%;
     width: 8%;
     padding: 0%;
-    
+   
 }
 
 
@@ -52,26 +51,27 @@ header{
 
 
 }
-.INDEX article p, .INDEX article img{
+
+
+header img, header h1{
     float: left;
 }
 
-
-.INDEX article{
+.INDEX .PRESENTACION, .INDEX H1{
     margin-left: 30%;
 }
 
-
-
+.INDEX article p, .INDEX article img{
+    float: left;
+}
 
 .INDEX article h1{
     text-align: center;
     clear: both;
 }
 
-
-.INDEX article p{
-    width: 25% ;
+.INDEX .PRESENTACION p{
+    width: 25%;
     margin: 3%;
 }
 
@@ -82,22 +82,13 @@ header{
     border-radius: 50%;
 }
 
-
-
 header img, header h1{
     float: left;
 }
 
-
 body{
     background-color: #AEC3B0;
 }
-
- main{
-    padding-bottom: 4%;
-}
-
-
 
 .INDEX h2, .HOTELES_DESTACADOS h2{
     clear: both;
@@ -160,6 +151,8 @@ body{
     border-radius: 40px;
 }
 
+
+
 .HOTELES div{
     width: 48%;
     height: auto;
@@ -217,7 +210,7 @@ footer ul li a{
     background-color: #AEC3B0;
 }
 
-.OPCIONES h2, .VUELOS_DESTACADOS main h2{
+.OPCIONES h2, .VUELOS_DESTACADOS h2{
     clear: both;
     text-align: center;
     text-decoration: underline;
@@ -258,3 +251,4 @@ footer ul li a{
     font-size: 20px;
 }
 /*Tato, si podes resolver que los div del footer queden a la misma altura te amaria, ya no se que mas hacer*/
+
