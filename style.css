@@ -87,7 +87,7 @@ body{
 }
 
 
-.PAQUETES h2{
+.PAQUETES h2, .PAQUETES h3{
     clear: both;
     text-align: center;
     text-decoration: underline;
@@ -97,21 +97,21 @@ body{
     border-radius: 15px;
 }
 
-.PAQUETES 
+.PAQUETES div
 {
-    width: 23%;
+    width: 100%;
     height: auto;
-
 }
 
 .PAQUETES div img{
-    width: 100%;
-    height: 30%;
+    width: 45%;
+    height: 45%;
     border-radius: 40px;
 }
 .PAQUETES article
 {
-    width: 40%;
+    float: right;
+    width: 25%;
     height: auto;
     text-align: center;
     padding: 1%;
@@ -125,8 +125,6 @@ body{
     border-radius: 40px;
 }
 
-
-
 .HOTELES div{
     width: 48%;
     height: auto;
@@ -135,9 +133,8 @@ body{
     border: 3px solid black;
 }
 
-
-
 footer{
+    clear: both;
     margin-top: 40%;
     height: 10%;
    padding: 2%;
