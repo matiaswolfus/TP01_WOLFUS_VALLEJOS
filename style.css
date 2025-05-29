@@ -178,11 +178,11 @@ footer ul li a{
     color: black;
 }
 
-.OPCIONES{
+.OPCIONES, .VUELOS_DESTACADOS{
     background-color: #AEC3B0;
 }
 
-.OPCIONES main h2{
+.OPCIONES main h2, .VUELOS_DESTACADOS main h2{
     clear: both;
     text-align: center;
     text-decoration: underline;
@@ -195,7 +195,7 @@ footer ul li a{
 
 }
 
-.OPCIONES main div {
+.OPCIONES main div, .VUELOS_DESTACADOS main div{
     width: 23%;
     height: auto;
     float: left;
@@ -207,14 +207,19 @@ footer ul li a{
     
 }
 
-.OPCIONES main div p, main div h3{
+.OPCIONES main div p, main div h3, .VUELOS_DESTACADOS main div p, main div h3{
     text-align: center;
 }
 
-.OPCIONES main div img{
+.OPCIONES main div img, .VUELOS_DESTACADOS main div img{
     width: 100%;
     height: 30%;
     border-radius: 40px;
 }
-
+.VUELOS_DESTACADOS main h2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
 /*Tato, si podes resolver que los div del footer queden a la misma altura te amaria, ya no se que mas hacer*/
