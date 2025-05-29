@@ -57,8 +57,13 @@ header img, header h1{
     float: left;
 }
 
-.INDEX .PRESENTACION, .INDEX H1{
+.INDEX .PRESENTACION{
     margin-left: 30%;
+}
+
+.INDEX h1{
+    width: 100%;
+    text-align: center;
 }
 
 .INDEX article p, .INDEX article img{
@@ -71,7 +76,7 @@ header img, header h1{
 }
 
 .INDEX .PRESENTACION p{
-    width: 25%;
+    width: 30%;
     margin: 3%;
 }
 
@@ -103,7 +108,7 @@ body{
 
 .INDEX div, .HOTELES_DESTACADOS div{
     width: 23%;
-    height: auto;
+    min-height: 500px;
     float: left;
     margin-left: 1.5%;
     margin-bottom: 1%;
@@ -111,38 +116,49 @@ body{
     border-radius: 40px;
     background-color: #598392;
 }
+.HOTELES_PRINCIPIO 
+{
+    width: 23%;
+    min-height: auto;
+    float: left;
+    margin-left: 1.5%;
+    margin-bottom: 1%;
+    border: 2px solid black;
+    border-radius: 40px;
+    background-color: #598392;
+}
+
 
 
 .PAQUETES h2, .PAQUETES h3{
-    clear: both;
     text-align: center;
     text-decoration: underline;
-    width: 13%;
-    margin-left: 43.5%;
-    padding: 0.5%;
-    border-radius: 15px;
 }
 
 .PAQUETES div
 {
     width: 100%;
     height: auto;
+    margin: 0%;
 }
 
 .PAQUETES div img{
     width: 45%;
     height: 45%;
     border-radius: 40px;
+    border: 3px solid #598392;
 }
 .PAQUETES article
 {
-    float: right;
+    margin-left: 5%;
+    float: left;
     width: 25%;
-    height: auto;
+    min-height: 600px;
     text-align: center;
     padding: 1%;
     font-weight: bold;
     font-size: 20px;
+    border: 3px solid #598392;
 }
 
 .INDEX div img, .HOTELES_DESTACADOS div img{
@@ -225,7 +241,7 @@ footer ul li a{
 
 .OPCIONES div, .VUELOS_DESTACADOS div{
     width: 23%;
-    height: auto;
+    min-height: 550px;
     float: left;
     margin-left: 1.5%;
     margin-bottom: 1%;
